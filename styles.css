@@ -1,3 +1,66 @@
-/* styles.css */
 
-/* Add styles here to customize the appearance of your app */
+body {
+    
+    align-items: center;
+    background-color: #EBCC8F;
+    margin: auto;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.imagen {
+    background-color: aliceblue;
+    width: 200px;
+    height: 300px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form {
+    background-color: #f0f0f0;
+    width: 20%;
+    padding: 1%;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+input[type="submit"] {
+    justify-self: end;
+    width: 100px;
+    background-color: cyan;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.inputs {
+    width: 100%;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: greenyellow;
+}
+input {
+    background-color: rgb(221, 206, 166);
+    border: none;
+    margin: 1%;
+}
+
+
+form * {
+    font-size: 16pt;
+}
+
+
